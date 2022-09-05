@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+$blue-color :#034378;
+$san-juan: #2d4e68;
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to right , $blue-color , $san-juan);
+}

@@ -1,0 +1,8 @@
+@use "foundation/foundation";
+$right-card-cover : url(../../images/stranger-things-bicycle-lights-children.jpg);
+
+.right-card{
+    width: 100%;
+    height: 100%;
+    @include foundation.bg-image($right-card-cover);
+}

@@ -1,0 +1,8 @@
+@use "foundation/foundation";
+$left-card-cover : url(../../images/photo-1496979551903-46e46589a88b.avif);
+
+.left-card{
+    width: 100%;
+    height: 100%;
+    @include foundation.bg-image($left-card-cover);
+}
