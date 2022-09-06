@@ -1,6 +1,12 @@
+@use "foundation/foundation";
+
+@include foundation.uset-default-style;
+
 .card{
     width: 23%;
     height: 70%;
     margin: 30px;
     box-shadow: 2px 5px 30px 10px rgba(#000000, .25);
+    overflow: hidden;
 }
+

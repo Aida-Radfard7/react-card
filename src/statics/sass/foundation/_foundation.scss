@@ -4,3 +4,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@mixin uset-default-style{
+    ul li{
+        list-style-type: none;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
